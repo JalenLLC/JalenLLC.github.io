@@ -1,0 +1,86 @@
+#cp1 {
+    font-family: monospace;
+    text-align: center;
+}
+#cp1-a {
+    background-color: #3c3f59;
+    color: aliceblue;
+    font-family: monospace;
+    text-align: center;
+    padding: 24px;
+}
+#cp1-b {
+    background-color: #a9aabc;
+    color: aliceblue;
+    font-family: monospace;
+    text-align: center;
+    padding: 24px;
+}
+#cp1-c {
+    background-color: #757687;
+    color: aliceblue;
+    font-family: monospace;
+    text-align: center;
+    padding: 24px;
+}
+#cp1-d {
+    background-color: #5a3739;
+    color: aliceblue;
+    font-family: monospace;
+    text-align: center;
+    padding: 24px;
+}
+#cp1-e {
+    background-color: #8e6768;
+    color: aliceblue;
+    font-family: monospace;
+    text-align: center;
+    padding: 24px;
+}
+#cp2 {
+    font-family: monospace;
+    text-align: center;
+}
+#cp2-a {
+    background-color: #2f45ff;
+    color: aliceblue;
+    font-family: monospace;
+    text-align: center;
+    padding: 24px;
+}
+#cp2-b {
+    background-color: #5b96a0;
+    color: aliceblue;
+    font-family: monospace;
+    text-align: center;
+    padding: 24px;
+}
+#cp2-c {
+    background-color: #322c49;
+    color: aliceblue;
+    text-align: center;
+    font-family: monospace;
+    padding: 24px;
+}
+#cp3 {
+    text-align: center;
+    font-family: arial black;
+}
+#cp3-a {
+    background-color: #efff00;
+    text-align: center;
+    font-family: arial black;
+    padding: 24px;
+}
+#cp3-b {
+    background-color: #00e7ff;
+    font-family: arial black;
+    text-align: center;
+    padding: 24px;
+}
+#cp3-c {
+    background-color: #ff95fb;
+    font-family: arial black;
+    text-align: center;
+    padding: 24px;
+}
