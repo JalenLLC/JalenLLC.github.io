@@ -1,0 +1,85 @@
+/*
+    NOTE TO STUDENTS: DON'T MODIFY THE CODE IN THIS FILE!
+
+    If you do, you risk messing up the bulletin board template!
+    However, feel free to look at the CSS Properties used.
+
+    Some of them are relatively advanced, but you are encouraged
+    to do your own research to try to understand how they work.
+
+    If you get stuck, feel free to ask about them in office hours!
+*/
+#p1 {
+    background-color: rgb(243, 255, 135);
+    display: inline-block;
+    padding-bottom: 75px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 24px;
+}
+#pic {
+    background-color: white;
+    display: inline-block;
+    padding-bottom: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin: 24px;
+}
+* {
+    box-sizing: border-box;
+}
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+body {
+    margin: 0px;
+}
+
+#bulletin-board {
+    background-image: url("../images/corkboard.jpg");
+    border-image: url("../images/frame.jpg") 49 50 46 47;
+    border-style: solid;
+    border-width: 50px;
+    margin: 24px;
+    min-height: calc(100vh - 48px);
+    padding: 24px;
+    width: calc(100vw - 48px);
+}
+p {
+    font-family: monospace;
+}
+h2 {
+    font-family: monospace;
+}
+li {
+    font-family: monospace;
+}
+#p2 {
+    background-color: rgb(177, 255, 229);
+    padding-left: 24px;
+    padding-top: 24px;
+    padding-right: 24px;
+    padding-bottom: 50px;
+    display: inline-block;
+    margin: 50px;
+}
+#p3 {
+    background-color: rgb(255, 219, 153);
+    display: inline-block;
+    padding: 20px;
+    padding-bottom: 75px;
+}
+#pika {
+    background-color: white;
+    padding: 24px;
+    margin: 24px;
+}
+#p4 {
+    display: inline-block;
+    background-color: rgb(255, 185, 255);
+    padding: 24px;
+    padding-bottom: 50px;
+    margin: 24px;
+}
