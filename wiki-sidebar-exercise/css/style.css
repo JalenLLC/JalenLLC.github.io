@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#column {
+    display: flex;
+    padding: 24px;
+    margin: 24px;
+}
+#sidebar ul li {
+    padding: 5px;
+    margin: 5px;
+}
+#picture {
+    display: flex;
+}
+img {
+    width: 200px;
+}
+h3 {
+    border-bottom: 0.5px solid black;
+}
+#main {
+    flex: 1;
+}
+#sidebar {
+    margin: 10px;
+}
