@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#c1 img {
+    width: 100px;
+}
+#pfp {
+    width: 50px;
+    border-radius: 50%;
+}
+#columns-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 50px;
+}
+#c2 img {
+    width: 350px;
+}
+#name {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid black;
+}
+#c3 #product {
+    border-bottom: 1px solid black;
+}
+#name div {
+    display: flex;
+}
+#c1 {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
