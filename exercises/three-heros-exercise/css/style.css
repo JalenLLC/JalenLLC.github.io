@@ -10,7 +10,7 @@ img {
     object-fit: cover;
 }
 #hero-1 {
-    background-image: url(../images/spiderman.avif);
+    background-image: url("../images/spiderman.avif");
     background-size: cover;
     height: 100vh;
     background-position: center center;
@@ -31,6 +31,61 @@ img {
         text-decoration: none;
         color: rgb(0, 0, 0);
         background: linear-gradient(-50deg, #8c8cff,#72e8ff );
+        padding: 10px 15px;
+        border-radius: 10px;
+        box-shadow: 4px 4px 12px rgb(0, 0, 0);
+    }
+}
+#hero-2 {
+    background-image: url("../images/Hero-macleran.webp");
+    background-size: cover;
+    height: 100vh;
+    background-position: center center;
+    position: relative;
+}
+#hero-content2 {
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+    h2 {
+        font-size: 30px;
+        color: rgb(0, 0, 0);
+    }
+    h4 {
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+    }
+    a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        background: linear-gradient(-50deg, #00000000,#ffffff );
+        padding: 10px 15px;
+        border-radius: 10px;
+        box-shadow: 4px 4px 12px rgb(0, 0, 0);
+    }
+}
+#hero-3 {
+    background-image: url("../images/Sunset.webp");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+}
+#hero-content3 {
+    margin-top: 250px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    h2 {
+        font-size: 40px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        background: linear-gradient(-90deg, #ff5e5e,#8572ff );
         padding: 10px 15px;
         border-radius: 10px;
         box-shadow: 4px 4px 12px rgb(0, 0, 0);
