@@ -38,3 +38,13 @@ img {
     margin-top: 250px;
     text-align: center;
 }
+.card-content {
+    columns: 3 auto;
+    column-gap: 24px;
+    img {
+        margin-bottom: 24px;
+    }
+}
+#gallery {
+    margin-top: 100px;
+}
