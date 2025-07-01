@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+@import url('https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+#hero {
+    background: url("../images/urban-hi-res-1ui7.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#hero-content {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.688);
+    padding: 24px;
+    padding-bottom: 60px;
+    border-radius: 15px;
+    h1 {
+        font-size: 50px;
+        color: white;
+    }
+    a {
+        font-size: 25px;
+        text-decoration: none;
+        color: black;
+        background: linear-gradient(45deg, #ff5c5c, #c623c6);
+        padding: 15px 29px;
+        border-radius: 13px;
+    }
+}
+#gallery-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    img {
+        height: 300px;
+        flex: 1;
+    }
+}
+#gallery {
+    margin: 100px 300px;
+}
+body {
+    background: linear-gradient(90deg, #441f47, #3e1818);
+}
+#title {
+    text-align: center;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+#title h1 {
+    background: linear-gradient(45deg, #ff00006f, #800080b9);
+    padding: 24px 50px;
+    border-radius: 15px;
+}
