@@ -65,3 +65,8 @@ body {
     padding: 24px 50px;
     border-radius: 15px;
 }
+#hero a:hover {
+    color: white;
+    box-shadow: 0px 0px 10px white;
+    transition: 0.5s;
+}
