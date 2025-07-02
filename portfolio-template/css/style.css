@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+#hero {
+    background: url("../images/Hero-forPortfolio.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+#hero-content {
+    top: 30%;
+    h2 {
+        color: beige;
+    }
+    a {
+        text-decoration: none;
+    }
+}
