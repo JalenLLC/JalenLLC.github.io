@@ -482,6 +482,20 @@ body {
         "footer"
         "bottom";
     }
+    #header {
+        flex-direction: column;
+        align-items: center;
+    }
+    #header #shield-image {
+        display: none;
+    }
+    #header h1 {
+        font-size: 36px;
+    }
+    #search-bar,
+    #search-button {
+        display: none;
+    }
     #nav {
         flex-wrap: wrap;
     }
@@ -489,4 +503,18 @@ body {
         flex: 190px;
         border-bottom: 2px solid grey;
     }
+    #banner-container,
+    #card-1,
+    #card-2,
+    #card-3,
+    #aside,
+    #main {
+        background-color: transparent;
+        margin: 0px;
+        padding: 0px;
+    }
+    #social-section {
+        display: flex;
+    }
+    
 }
