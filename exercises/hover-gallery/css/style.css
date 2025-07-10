@@ -44,3 +44,21 @@ img {
     transform: translateY(-10px);
     transition: transform 0.5s, box-showdow 0.5s, background-color 1s;
 }
+#btn-4 {
+    opacity: 0;
+    visibility: hidden;
+}
+#btn4:hover #btn-4 {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.5s, visibility 0.5s;
+}
+#btn-3 {
+    opacity: 0;
+    visibility: hidden;
+}
+#btn3:hover #btn-3 {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.5s, visibility 0.5s;
+}
