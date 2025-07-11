@@ -108,3 +108,36 @@ img {
     justify-content: center;
     margin-top: 60px;
 }
+#page-1 {
+    background: linear-gradient(
+        -50deg, 
+        #ff306e, 
+        #ff82a7 50%, 
+        rgb(51, 0, 19) 50%, 
+        black
+        );
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+#page-2 {
+    background: linear-gradient(
+        -50deg, 
+        #ff306e, 
+        #ff82a7 50%, 
+        rgb(51, 0, 19) 50%, 
+        black
+        );
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+#page-3 {
+    background: linear-gradient(
+        -50deg, 
+        #ff306e, 
+        #ff82a7 50%, 
+        rgb(51, 0, 19) 50%, 
+        black
+        );
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
