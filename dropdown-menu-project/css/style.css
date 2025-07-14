@@ -12,17 +12,19 @@ img {
 #nav-content {
     display: flex;
     align-items: center;
-    padding: 10px 24px;
+    padding: 0px 24px;
     img {
         width: 70px;
         margin-right: auto;
         margin-left: 20px;
     }
     a {
+        display: inline-block;
         text-decoration: none;
         font-size: 19px;
         font-weight: 550;
         color: black;
+        padding: 34px 15px;
     }
 }
 #navbar {
@@ -62,11 +64,12 @@ img {
     margin: 20px auto;
     gap: 24px;
     justify-content: center;
+    align-items: flex-start;
 }
 .cards {
     text-align: center;
     width: 300px;
-    padding: 50px 24px;
+    padding: 0px 24px;
     background-color: #ffa8b2;
     border-radius: 24px;
     box-shadow: 4px 4px 10px #0000006d;
@@ -80,6 +83,9 @@ img {
     }
     h3 {
         font-size: 27px;
+    }
+    img {
+        height: 300px;
     }
 }
 .cards-1 {
@@ -135,9 +141,61 @@ img {
         -50deg, 
         #ff306e, 
         #ff82a7 50%, 
-        rgb(51, 0, 19) 50%, 
+        rgb(51, 0,  19) 50%, 
         black
         );
     background-repeat: no-repeat;
     min-height: 100vh;
+}
+#nav-content .drop .menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    padding-right: 40px;
+    a {
+        color: #ffadad;
+        padding: 15px 24px;    
+        background-color: #97012e;
+        &:last-child {
+            border-radius: 0px 0px 24px 24px;
+        }
+    }
+}
+.drop {
+    position: relative;
+    .menu {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+.drop:hover .menu {
+    opacity: 1;
+    visibility: visible;
+}
+#navbar a:hover {
+    background-color: #97012e;
+    color: #ffadad;
+}
+#navbar .menu a:hover {
+    background-color: #ffadad;
+    color: black;
+}
+@media screen and (max-width: 768px) {
+    #two-column {
+        flex-direction: column;
+        align-items: center;
+    }
+    #hero {
+        height: 50vh;
+    }
+    #hero a {
+        font-size: 12px;
+    }
+    #hero h1 {
+        font-size: 20px;
+    }
+    #hero-content {
+        padding-left: 20px;
+        padding-top: 50px;
+    }
 }
