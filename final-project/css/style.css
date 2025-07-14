@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+.nav-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav {
+    background-color: orange;
+}
