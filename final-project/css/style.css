@@ -4,6 +4,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: black;
 }
 img {
     width: 100%;
@@ -12,8 +13,101 @@ img {
 .nav-content {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    #right {
+        margin-left: 60vw;  
+    }
+}
+#right a {
+    margin-right: 40px;
+    text-decoration: none;
+    color: white;
 }
 .nav {
-    background-color: orange;
+    background: linear-gradient(90deg, #bc95ff, 75%, black);
+}
+.nav-content img {
+    height: 150px;
+    margin-left: 20px;
+}
+#menu-lay h1 {
+    color: white;
+    margin-bottom: 50px;
+}
+#menu-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+#f-card {
+    text-align: center;
+    width: 600px;
+    padding: 50px;
+    background-color: white;
+    border-radius: 30px;
+    img {
+        width: 400px;
+        border: 5px outset red;
+    }
+    h3 {
+        padding: 10px;
+    }
+    a {
+        text-decoration: none;
+        font-size: 20px;
+        padding: 10px 24px;
+        background: linear-gradient(90deg, #bc95ff, #38003c);
+        color: white;
+        border-radius: 20px;
+    }
+}
+.card-left {
+    background-color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border-radius: 30px;
+    margin: 20px;
+    height: 300px;
+    img {
+        width: 50vw;
+        border-radius: 30px 0px 0px 30px;
+        height: 300px;
+    }
+    a {
+        text-decoration: none;
+        font-size: 20px;
+        padding: 10px 24px;
+        background: linear-gradient(90deg, #bc95ff, #38003c);
+        color: white;
+        border-radius: 20px;
+    }
+    p {
+        margin: 20px;
+    }
+}
+.card-right {
+    background-color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border-radius: 30px;
+    margin: 20px;
+    height: 300px;
+    img {
+        width: 50vw;
+        border-radius: 0px 30px 30px 0px;
+        height: 300px;
+    }
+    a {
+        text-decoration: none;
+        font-size: 20px;
+        padding: 10px 24px;
+        background: linear-gradient(90deg, #bc95ff, #38003c);
+        color: white;
+        border-radius: 20px;
+    }
+    p {
+        margin: 20px;
+    }
 }
