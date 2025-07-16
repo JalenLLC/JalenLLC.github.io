@@ -83,3 +83,17 @@ img {
     transform: translateY(-5px);
     transition: transform 0.5s, box-shadow 0.5s;
 }
+@media screen and (max-width: 600px) {
+    #column #title {
+        font-size: 30px;
+    }
+    #column #idk-2 {
+        font-size: 15px;
+    }
+    #card-lay {
+        flex-direction: column;
+    }
+    #footer h1 {
+        font-size: 20px;
+    }
+}
