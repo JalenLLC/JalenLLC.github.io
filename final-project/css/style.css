@@ -133,3 +133,48 @@ img {
         background: linear-gradient(90deg, rgb(99, 3, 3), red 90%, red);
     }
 }
+#home-lay {
+    h1 {
+        margin: 100px 0px;
+        text-align: center;
+        color: white;
+    }
+}
+.home-card {
+    background: linear-gradient(0deg, #00000000, white 70%, white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 320px;
+    margin: 24px;
+    border-radius: 30px;
+    img {
+        width: 300px;
+        height: 200px;
+    }
+    h2 {
+        padding: 20px 0px;
+    }
+    a {
+        margin: 30px;
+        background: linear-gradient(90deg, red, darkred);
+        text-decoration: none;
+        padding: 10px 24px;
+        border-radius: 15px;
+        color: rgb(255, 255, 255);
+    }
+}
+#home-content {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 750px) {
+    #home-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-content #right {
+        margin-left: 20vw;
+    }
+}
