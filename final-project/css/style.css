@@ -240,4 +240,13 @@ a:hover {
     .card-right a {
         font-size: 10px;
     }
+    #f-card a {
+        font-size: 15px;
+    }
+    #f-card {
+        width: 300px;
+    }
+    #f-card img {
+        width: 200px;
+    }
 }
